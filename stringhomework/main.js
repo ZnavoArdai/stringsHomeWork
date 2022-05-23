@@ -34,7 +34,7 @@
 //     console.log(j)
 // }
 
-// longValue([{name:"booda",city:"rishon lezion",gender:"gay"}])
+// longValue([{name:"booda",city:"rishon lezion",gender:women"}])
 
 
 
@@ -72,7 +72,7 @@
 //         return char1;
 //     }
 //     else
-//     return !char1;
+7//     return !char1;
 // }
 // exsistchar1("xsadsad")
 //10
@@ -211,6 +211,154 @@
 // formYtoEnd("sayonara")
 
 //20
+
+// function howManyChars(){
+//     var name=prompt("enter name");
+//     var temp=false;
+//     var holder="";
+//     var holder2="";
+
+// for(var i=0;i<name.length;i++){
+
+//     if(name[i]==" "){
+//         temp=true;
+        
+//     }
+
+//    holder=name.substring(0,name.indexOf(" "))
+//    holder2=name.substring(name.indexOf(" "))
+
+// }
+// if(temp==true){
+//     console.log("yes there is gap "+name.length+holder+holder2)
+
+// }
+// }
+// howManyChars();
+
+//21
+
+// function twoStrings(one="",two=""){
+
+//    one=one.toLowerCase();
+//    two=two.toLowerCase();
+
+//    if(one==two){
+//        console.log("equal")
+//    }
+// }
+// twoStrings("one","one");
+
+//22
+// function twoStrings(one="",two=""){
+
+//        one=one.toUpperCase();
+//        two=two.toUpperCase();
+    
+//        if(one==two){
+//            console.log("equal")
+//        }
+//     }
+//     twoStrings("oNe","one");
+
+//23
+// function fullName(){
+// var fname=prompt("enter first name");
+// var lname=prompt("enater last name");
+// if(fname.length>lname.length){
+//     console.log9(fname)
+// }
+// else if(fname.length<lname.length){
+//     console.log(lname)
+
+// }
+// else
+// console.log("equal")
+
+// }
+// fullName();
+
+//24
+// function fullName(){
+// var fname=prompt("enter first name");
+// var lname=prompt("enater last name");
+// if(fname.includes("a")){
+//     console.log("yes")
+// }
+// if(fname.includes("a"+"p"+"i")){
+//     console.log("ye s")
+// }
+// }
+// fullName();
+//25
+// function lengthOfWord(x=""){
+// if(x.length>5){
+//     return "to long"
+// }
+// else
+// return "to short"
+// }
+//26
+// function lengthOfCuntry(x=""){
+// if(x.length==3){
+//     return "yes"
+// }
+// else
+// return "no"
+// }
+//27
+// function lengthOfString(x="",y=""){
+//     if(x.length>6){
+//         return x;
+//     }
+//     else
+//     return x.indexOf(y)
+//     }
+
+//28
+
+// function indexOfChar(x="",y=""){
+//         if(x.includes(y)){
+//             return x.indexOf(y);
+//         }
+//         else
+//         return x;
+//         }
+
+//29
+// function fullName(){
+// var fname=prompt("enter first name");
+// var lname=prompt("enater last name");
+
+// return fname.substr(0,1)+". "+lname.toUpperCase();
+// }
+
+//30
+// function findchar(name="",ch=""){
+//     if(name.includes(ch)){
+//         return name;
+//     }
+//     else
+//     return "not exsit"
+// }
+
+//31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
